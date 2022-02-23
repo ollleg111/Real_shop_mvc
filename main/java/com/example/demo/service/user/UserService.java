@@ -1,10 +1,10 @@
-package com.example.demo.service.users;
+package com.example.demo.service.user;
 
 import com.example.demo.entities.User;
 
 import java.util.List;
 
-public interface UsersService {
+public interface UserService {
 	User findByPerson(String firstName, String lastName);
 	List<User> getAllUsers();
 	String getDateByUserId(Long id);

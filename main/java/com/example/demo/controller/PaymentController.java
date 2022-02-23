@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @AllArgsConstructor
-@RequestMapping(value = "/users")
-public class UserController {
-    private final UserService usersService;
+@RequestMapping(value = "/payments")
+public class PaymentController {
+    private final PaymentController paymentController;
 
 }

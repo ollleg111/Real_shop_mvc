@@ -1,4 +1,4 @@
-package com.example.demo.service.users;
+package com.example.demo.service.user;
 
 import com.example.demo.dao.UserDAO;
 import com.example.demo.entities.User;
@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 @Slf4j
 @AllArgsConstructor
-public class UserServiceImpl implements GeneralCRUDService<User> ,UsersService {
+@Service
+public class UserServiceImpl implements GeneralCRUDService<User>, UserService {
     private final UserDAO userDAO;
 
     @Override
