@@ -1,3 +1,8 @@
+РУССКИЙ ВОЕННЫЙ КОРАБЛЬ, ИДИ НА ХУЙ!
+
+
+
+
 Primitive internet working shop with many technologies, like ...
  - Java 11, 
  - Spring MVC, 
